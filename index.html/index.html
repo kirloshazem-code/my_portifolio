@@ -1,93 +1,78 @@
-<html>
-    <head>
-        <title>css</title>
-        <link href="css/mystyle.css" rel="stylesheet">
-        <link href="css/all.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirlos Hazem - Portfolio</title>
+    <link href="css/mystyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
     <!--start header--> 
-        <header class="header" id="header">
-            <nav class="navbar">
-                <div class="logo"> Kirlos Hazem </div>
-                
-                <div>
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="logo">Kirlos Hazem</div>
+            <ul class="nav-menu">
+                <li><a href="#header">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
 
-                    <ul>
-                    <li> <a href="#header"> About Me</a></li>
-                     <li> <a href="#projects"> Projects</a></li>
-                      <li> <a href="#contact"> Contact Us</a></li>
-                </ul>
-
-                </div>
-
-            </nav>
-
-            <div class="About">
-                <div class="avatar">
-                    <img src="img/avatar.jpg.jpeg" alt="Kirlos Hazem">
-                </div>
-                <div class="aboutme">
-                    <h1>
-                        Welcome😊 <br> Iam Kirlos Hazem
-                    </h1>
-
-                    <h3>
-                        I am a Data Science student passionate about turning data into meaningful insights. I have hands-on experience in<mark> Python</mark> , <mark>SQL</mark>,<mark>Excel</mark> , and<mark> Power BI</mark>, and I enjoy building analytical solutions, dashboards, and data-driven reports.
-I am constantly developing my skills, exploring new tools, and working on real projects to strengthen my technical abilities. I’m currently looking for opportunities and internships where I can apply what I learn, grow professionally, and contribute to impactful data projects.
-                    </h3>
-
+        <div class="about-container">
+            <div class="avatar">
+                <img src="img/avatar.jpg.jpeg" alt="Kirlos Hazem">
+            </div>
+            <div class="aboutme">
+                <h1>Welcome😊 <br> I'm Kirlos Hazem</h1>
+                <p>
+                    I am a Data Science student passionate about turning data into meaningful insights. I have hands-on experience in <mark>Python</mark>, <mark>SQL</mark>, <mark>Excel</mark>, and <mark>Power BI</mark>, and I enjoy building analytical solutions, dashboards, and data-driven reports.
+                    I am constantly developing my skills, exploring new tools, and working on real projects to strengthen my technical abilities. I'm currently looking for opportunities and internships where I can apply what I learn, grow professionally, and contribute to impactful data projects.
+                </p>
+                <div class="social-links">
                     <a href="https://facebook.com/koko.hazem.33"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="https://www.linkedin.com/in/kirlos-hazem" class="linkedin"><i class="fab fa-linkedin"></i></a>
-                   
                 </div>
-
             </div>
-        </header>
+        </div>
+    </header>
     <!--end header--> 
 
     <!--start project--> 
-        <section class="projects" id="projects">
-            <div class="project_text">
-             <h1>Projects</h1>
-             <h3>Welcome to my project section </h3>
+    <section class="projects" id="projects">
+        <div class="project_text">
+            <h1>Projects</h1>
+            <h3>Welcome to my project section</h3>
+        </div>
+        
+        <div class="content">
+            <div class="item">
+                <img src="img/screen.png" alt="project">
+                <h2>My Web</h2>
             </div>
-            
-
-            <div class="content">
-                <div class="item"><img src="img/screen.png" alt="project"><h2>My web</h2></div>
-               <!-- <div class="item"><img src="img/screen.png" alt="project"></div>
-                <div class="item"><img src="img/screen.png" alt="project"></div>
-                <div class="item"><img src="img/screen.png" alt="project"></div>
-                <div class="item"><img src="img/screen.png" alt="project"></div>
-                <div class="item"><img src="img/screen.png" alt="project"></div>   -->s         
-            </div> 
-
-        </section>
+        </div> 
+    </section>
     <!--end project--> 
 
     <!--start contact--> 
-        <section class="contact" id="contact">
-            <h1>Contact us</h1>
-            <div class="form">
-                <form>
-                    <input type="text" placeholder="name" name="name">
-                    <input type="email" placeholder="email" name="email">
-                    <textarea name="message" placeholder="message"></textarea>
-                    <button>Send</button>
-                </form>
-            </div>
-            <!--<div class="map">-->
-                <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3427.9200604640237!2d30.992469625175602!3d30.77682298350193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7c9662691da13%3A0x681a61776bc6edcf!2z2LTYp9ix2Lkg2KrYsdi52Ycg2KfZhNi02YrYqtmK!5e0!3m2!1sar!2seg!4v1763771685258!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
-            <!--</div>-->
-        </section>
+    <section class="contact" id="contact">
+        <h1>Contact Me</h1>
+        <div class="form-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="email" placeholder="Email" name="email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
     <!--end contact--> 
 
     <!--start footer--> 
-        <footer class="footer">Thank you for visiting my portfolio. I appreciate your time and hope to connect with you soon.
-— Kirlos Hazem</footer>
+    <footer class="footer">
+        Thank you for visiting my portfolio. I appreciate your time and hope to connect with you soon. — Kirlos Hazem
+    </footer>
     <!--end footer-->
-      
-      
-    </body>
+</body>
 </html>
