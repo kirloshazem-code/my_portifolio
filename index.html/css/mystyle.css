@@ -301,3 +301,18 @@ footer{
 }
 
 
+/* للهواتف */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.3rem; }
+}
