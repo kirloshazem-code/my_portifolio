@@ -3,76 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kirlos Hazem - Portfolio</title>
-    <link href="css/mystyle.css" rel="stylesheet">
+    <title>Kirlos Hazem Portfolio</title>
+    <link rel="stylesheet" href="css/mystyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--start header--> 
-    <header class="header" id="header">
-        <nav class="navbar">
-            <div class="logo">Kirlos Hazem</div>
-            <ul class="nav-menu">
-                <li><a href="#header">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </nav>
 
-        <div class="about-container">
-            <div class="avatar">
-                <img src="img/avatar.jpg.jpeg" alt="Kirlos Hazem">
-            </div>
-            <div class="aboutme">
-                <h1>Welcome😊 <br> I'm Kirlos Hazem</h1>
-                <p>
-                    I am a Data Science student passionate about turning data into meaningful insights. I have hands-on experience in <mark>Python</mark>, <mark>SQL</mark>, <mark>Excel</mark>, and <mark>Power BI</mark>, and I enjoy building analytical solutions, dashboards, and data-driven reports.
-                    I am constantly developing my skills, exploring new tools, and working on real projects to strengthen my technical abilities. I'm currently looking for opportunities and internships where I can apply what I learn, grow professionally, and contribute to impactful data projects.
-                </p>
-                <div class="social-links">
-                    <a href="https://facebook.com/koko.hazem.33"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.linkedin.com/in/kirlos-hazem" class="linkedin"><i class="fab fa-linkedin"></i></a>
-                </div>
+<!--start header-->  
+<header class="header" id="header">
+    <nav class="navbar">
+        <div class="logo">Kirlos Hazem</div>
+        <ul class="nav-links">
+            <li><a href="#header">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="about">
+        <div class="avatar">
+            <img src="img/avatar.jpg.jpeg" alt="Kirlos Hazem">
+        </div>
+        <div class="aboutme">
+            <h1>Welcome 😊 <br> I am Kirlos Hazem</h1>
+            <h3> I am a Data Science student passionate about turning data into meaningful insights. I have hands-on experience in<mark> Python</mark> , <mark>SQL</mark>,<mark>Excel</mark> , and<mark> Power BI</mark>, and I enjoy building analytical solutions, dashboards, and data-driven reports. I am constantly developing my skills, exploring new tools, and working on real projects to strengthen my technical abilities. I’m currently looking for opportunities and internships where I can apply what I learn, grow professionally, and contribute to impactful data projects. </h3>
+            <div class="social">
+                <a href="https://facebook.com/koko.hazem.33" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/kirlos-hazem" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
-    </header>
-    <!--end header--> 
+    </div>
+</header>
+<!--end header--> 
 
-    <!--start project--> 
-    <section class="projects" id="projects">
-        <div class="project_text">
-            <h1>Projects</h1>
-            <h3>Welcome to my project section</h3>
+<!--start project--> 
+<section class="projects" id="projects">
+    <div class="section-header">
+        <h1>Projects</h1>
+        <h3>Welcome to my project section</h3>
+    </div>
+
+    <div class="content">
+        <div class="item">
+            <img src="img/screen.png" alt="project">
+            <h2>My Web</h2>
         </div>
-        
-        <div class="content">
-            <div class="item">
-                <img src="img/screen.png" alt="project">
-                <h2>My Web</h2>
-            </div>
-        </div> 
-    </section>
-    <!--end project--> 
+        <!-- يمكنك إضافة المزيد من المشاريع هنا -->
+    </div>
+</section>
+<!--end project--> 
 
-    <!--start contact--> 
-    <section class="contact" id="contact">
-        <h1>Contact Me</h1>
-        <div class="form-container">
-            <form class="contact-form">
-                <input type="text" placeholder="Name" name="name" required>
-                <input type="email" placeholder="Email" name="email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+<!--start certificates--> 
+<section class="certificates" id="certificates">
+    <div class="section-header">
+        <h1>Certificates</h1>
+        <h3>Here are some of my achievements</h3>
+    </div>
+
+    <div class="content">
+        <div class="item">
+            <img src="img/Screenshot 2025-11-24 234441.png" alt="certificate">
+            <h2>introduction to modern AI</h2>
         </div>
-    </section>
-    <!--end contact--> 
+        <div class="item">
+            <img src="img/Screenshot 2025-09-28 191151.png" alt="certificate">
+            <h2>introduction to cyber security</h2>
+        </div>
+        <!-- أضف شهادات أخرى هنا -->
+    </div>
+</section>
+<!--end certificates--> 
 
-    <!--start footer--> 
-    <footer class="footer">
-        Thank you for visiting my portfolio. I appreciate your time and hope to connect with you soon. — Kirlos Hazem
-    </footer>
-    <!--end footer-->
+<!--start contact--> 
+<section class="contact" id="contact">
+    <h1>Contact Me</h1>
+    <div class="form">
+        <form>
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="email" placeholder="Email" name="email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
+<!--end contact--> 
+
+<!--start footer--> 
+<footer class="footer">
+    Thank you for visiting my portfolio. I appreciate your time and hope to connect with you soon. — Kirlos Hazem
+</footer>
+<!--end footer-->
+
 </body>
 </html>
